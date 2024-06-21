@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    
+.Header,
+.footer {
+    display: flex;
+    justify-content:center;
+    
+    background-color: #1F2937;
+    
+    font-size: 18px;
+    padding: 20px;
+    gap: 30px;  
+}
+.Logo-image{
+    flex-grow: 1;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.header-link {
+    padding: 10px;
+}
+.description{
+    margin-right: 10px;
+}
+.Intro{
+    background-color: #1F2937;
+    color: white;
+    color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+.Hero-text{
+    font-size: 48px;
+    font-weight:900;
+    color: white;
+}
+.Hero-image{
+    width: 640px;
+    height: auto;
+}
+.sign-up-button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 10px;
+}   
+.Silvia{
+    width: auto;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.examples {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+.example-1,
+.example-2,
+.example-3,
+.example-4{
+    height: auto;
+    width: 300px;
+    text-align: center;
+}
+.example-image1,
+.example-image2,
+.example-image3,
+.example-image4 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 8px solid #3882F6;
+    border-radius: 8px;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: auto;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+
+}
+.quote-text {
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    
+
+}
+.person {
+    font-weight: bold;
+    font-size: larger;
+}
+.action-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: auto;
+}
+.action-inside {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 1200px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+.action-text {
+    color: white;
+    font-size: 1em;
+}
+.sign-up-button2 {
+    color: white;
+    background-color: #3882F6;
+    border: 4px solid white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.footer {
+    color: white;
+    font-size: 1em;
+}
+
+
